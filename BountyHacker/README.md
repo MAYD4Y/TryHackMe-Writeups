@@ -27,7 +27,7 @@ For the question "Who wrote the task list? ", the answer can be found in the ```
 <h2>3. Bruteforce the SSH service</h2>
 
 Run ```hydra -l lin -P locks.txt -t 4 ssh://10.10.16.154``` in order to bruteforce the ssh, using ```lin``` as id and ```locks.txt``` as passwords dictonary
-</br>Finally, we get the password ```RedDr4gonSynd1cat3```
+</br>Finally, we get the password
 
 <h2>4. Connect in SSH as lin</h2>
 
